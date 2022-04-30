@@ -1,0 +1,36 @@
+body{
+    background-color: #1C1427;
+}
+.rand-img {
+    position: absolute;
+    opacity: 0.8;
+    animation: rotation 2s infinite linear;
+    /* box-shadow: 5px 5px 5px black; */
+  }
+  @keyframes rotation{
+    1%{
+      transform:rotate3d(0,1,0,1turn);
+    }
+  }
+  .touch-img{
+    animation: rotter 1s infinite linear;
+  }
+  @keyframes rotter {
+    1%{
+      transform:rotate3d(0,1,0,3turn);
+    }
+  }
+  .foot{
+      position:absolute;
+      top:700px;
+      left:630px;
+      color:#F1DDBF;
+      cursor:pointer;
+      font-size:1.2em;
+      transition:font-size .2s;
+      text-shadow: 5px 4px 9px black;
+  }
+  .foot:hover {
+    font-size:1.4em;
+    color: #FF5403;
+  }
